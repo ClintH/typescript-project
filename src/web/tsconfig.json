@@ -1,0 +1,17 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "include": [
+    "**/*"
+  ],
+  "references": [
+    {
+      "path": "../core"
+    }
+  ],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "outDir": "../../build/web",
+    "rootDir": "."
+  }
+}
