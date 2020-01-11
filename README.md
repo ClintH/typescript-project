@@ -1,8 +1,17 @@
-TypeScript project template
-
-# Notes
+# TypeScript project template
 
 Builds using `tsc` into the `build` sub folder.
+
+# Install
+
+Use degit to download, and then run `npm install`.
+
+```
+npm install -g degit
+degit https://github.com/ClintH/typescript-project PROJECTNAME
+cd PROJECTNAME
+npm install
+```
 
 # Scripts
 
